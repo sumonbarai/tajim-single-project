@@ -55,8 +55,7 @@ body{
 p{
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
-    font-size: 1.6rem;  
-    list-style: 2.4rem;
+    font-size: 1.6rem;
 }
 a,
 a:hover{
@@ -593,6 +592,7 @@ h6 {
     font-size: 0;
     height: 4.5rem;
     width: 4.5rem;
+    border:.1rem solid transparent;
     border-radius: 50%;
     border: .1rem solid transparent;
     -webkit-transition: all ease .5s;
@@ -652,10 +652,7 @@ h6 {
     border:none;
 }
 .testimonial-slider .slick-dots li.slick-active{
-    background-color: #00e0d0;
-    -webkit-transform: scale(130%);
-        -ms-transform: scale(130%);
-            transform: scale(130%);
+    border:.1rem solid #00e0d0;  
 }
 /*---- contact-area
 ============================================= */
