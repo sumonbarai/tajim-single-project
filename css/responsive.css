@@ -1,0 +1,207 @@
+
+/* mediam device  screen */
+@media only screen and (max-width: 991.98px) {
+
+    /* header-area */
+    #navbarNav ul {
+        background-color: #52C3C0 !important;
+        text-align: center;
+    }
+
+    .header-area .navbar-nav .nav-item .nav-link:hover {
+        background: #27234A;
+        color: #fff;
+    }
+
+    /* banner-area */
+    .banner-area {
+        height: 70vh;
+    }
+
+    .banner-area .banner-text {
+        padding-top: 20rem;
+        padding-bottom: 10rem;
+
+    }
+    .banner_slider .slick-dots {
+        left: 50%;
+        bottom: 2rem;
+    }
+
+    /* service-area */
+    .service-area .service-all-items .service-child:nth-child(3n) {
+        border-right: .1rem solid #ebebeb;
+    }
+
+    .service-area .service-all-items .service-child:nth-child(2n) {
+        border-right: 0rem solid #ebebeb;
+    }
+
+    .service-area .service-all-items .service-child:nth-child(4) {
+        border-bottom: .1rem solid #ebebeb;
+    }
+
+    /* portfolio-area */
+    .portfolio-area .all-portfolio a {
+        width: 25%;
+    }
+
+    /* testimonial */
+    .testimonial-slider .slick-dots li {
+        height: 3.5rem;
+        width: 3.5rem;
+    }
+
+    /* contact-area */
+    .contact-area .our-media-partner {
+        padding-left: 0;
+        margin-bottom: 0;
+    }
+
+    .contact-area .our-media-partner .partner .partner-logo {
+        width: 25%;
+    }
+
+    /* footer area */
+    .footer-area .right-part .social-icon a i {
+        width: 2.5rem;
+        height: 2.5rem;
+        line-height: 2.5rem;
+        font-size: 1.2rem;
+    }
+
+}
+
+/* /* small device  screen */
+@media only screen and (max-width: 767.98px) {
+    html {
+        font-size: 56.5%;
+    }
+
+    /* video section */
+    .video-area .video-all-content {
+        padding: 14rem 0;
+    }
+
+    /* portfolio-area */
+    .portfolio-area .all-portfolio a {
+        width: 33.33%;
+    }
+
+    /* footer area */
+    .footer-area {
+        padding-left: 5rem;
+        padding-right: 5rem;
+    }
+
+    .footer-area .middle-part .address i,
+    .footer-area .middle-part .mobile i {
+        position: inherit;
+        top: 0;
+        left: -12px;
+    }
+
+    .footer-area .middle-part .address,
+    .footer-area .middle-part .mobile {
+        text-align: left;
+        padding-left: 1rem;
+    }
+
+    .footer-area .middle-part h2::after {
+        content: "";
+        display: block;
+        width: 12rem;
+        height: .2rem;
+        background-color: #03E0D1;
+        margin-top: 1rem;
+    }
+
+    .footer-area .right-part h2::after {
+        content: "";
+        display: block;
+        width: 12rem;
+        height: .2rem;
+        background-color: #03E0D1;
+        margin-top: 1rem;
+    }
+}
+
+/* Extra small device screen  */
+@media only screen and (max-width: 575.98px) {
+    html {
+        font-size: 56.5%;
+    }
+
+    /* banner area */
+    .banner-area {
+        height: 60vh;
+    }
+
+    .banner-area .banner-text {
+        padding-top: 11rem;
+        padding-bottom: 8rem;
+    }
+
+    .banner-area .banner-text p {
+        font-size: 14px;
+    }
+
+    .banner-area .banner-text h3 {
+        font-size: 22px;
+    }
+
+    .banner-area .banner-text .section-btn {
+        margin-top: 1rem;
+    }
+
+    .banner_slider .slick-dots {
+        bottom: 11%;
+    }
+    .story-area .left-area img {
+        width: 18.5rem;
+    }
+
+    /* portfolio-area */
+    .portfolio-area .all-portfolio {
+        clear: both;
+        overflow: hidden;
+        padding: 4rem 0;
+    }
+    .portfolio-area .all-portfolio a {
+        width: 50%;
+    }
+    .contact-area .our-media-partner .partner .partner-logo {
+        width: 33.33%;
+    }
+    /* service-area */
+    .service-area .service-all-items .service-child:nth-child(1),
+    .service-area .service-all-items .service-child:nth-child(2),
+    .service-area .service-all-items .service-child:nth-child(3),
+    .service-area .service-all-items .service-child:nth-child(4),
+    .service-area .service-all-items .service-child:nth-child(5),
+    .service-area .service-all-items .service-child:nth-child(6) {
+        border-bottom: .1rem solid #ebebeb;
+        border-right: 0;
+    }
+    /* testimonial area */
+    .testimonial-slider .slick-dots li {
+        height: 2.5rem;
+        width: 2.5rem;
+    }
+    .testimonial-slider .slick-prev {
+        left: 15%;
+    }
+    .testimonial-slider .slick-next {
+        right: 15%;
+    }
+
+}
+@media only screen and (max-width: 350px) {
+    .testimonial-slider .slick-dots li {
+        height: 2rem;
+        width: 2rem;
+    }
+    .banner_slider .slick-dots li {
+        display: none;
+    }
+}
